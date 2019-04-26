@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+if [ $# -eq 0 -o $# -gt 2 ]; then
+	echo "Usage: $0 <num> [file]"
+fi
 let num=$1+1
+shift
 tail -n +$num "$@"
 
