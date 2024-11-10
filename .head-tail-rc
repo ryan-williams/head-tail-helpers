@@ -23,6 +23,7 @@ defn hd10 head
 defn hd20 head -n 20
 defn hd50 head -n 50
 defn hd100 head -n 100
+defn hdc head -c
 defn hdn head -n
 
 alias 1="head -n 1"
@@ -51,6 +52,8 @@ defn t11 tail -n 11
 defn t20 tail -n 20
 defn t50 tail -n 50
 defn t100 tail -n 100
+defn tlc tail -c
+defn tln tail -n
 defn tn tail -n
 
 defn hd head
