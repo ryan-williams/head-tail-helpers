@@ -11,6 +11,7 @@ defn h10 head
 defn h20 head -n 20
 defn h50 head -n 50
 defn h100 head -n 100
+defn h1000 head -n 1000
 
 defn hd1 head -n 1
 defn hd2 head -n 2
